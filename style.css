@@ -1,0 +1,314 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Nunito", sans-serif;
+}
+
+.header {
+  position: fixed;
+  align-items: center;
+}
+
+.head {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.logo {
+  font-size: 20px;
+  color: hsl(262, 1%, 35%);
+  margin-right: 10px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.red {
+  color: hsl(356, 82%, 43%);
+}
+
+.input {
+  max-width: 300px;
+  height: 45px;
+  border-radius: 50px;
+  border: 1px solid hsl(0, 0%, 78%);
+  color: hsl(165, 1%, 58%);
+  font-size: 16px;
+  font-weight: 600px;
+  box-shadow: 0 0 10px hsl(328, 0%, 63%);
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+.input:hover,
+.input:focus {
+  outline: hsl(0, 0%, 78%);
+  border-color: hsl(0, 0%, 78%);
+}
+
+.search-button {
+  width: 40px;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.search-input::placeholder {
+  color: hsl(165, 1%, 58%);
+}
+
+.search-button i {
+  color: hsl(231, 15%, 69%);
+  font-size: 18px;
+  margin-left: 35px;
+  margin-top: 13px;
+  position: absolute;
+}
+
+.profile-image {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 10px hsl(358, 89%, 31%);
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.notification {
+  margin-right: 10px;
+  color: hsl(356, 82%, 43%);
+  font-size: 24px;
+  align-items: baseline;
+}
+
+/*   end of header   */
+
+.middle {
+  position: relative;
+  margin-left: 12px;
+}
+
+.title-bar {
+  align-items: baseline;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700px;
+  color: hsl(165, 1%, 58%);
+  margin-bottom: 12px;
+  cursor: default;
+}
+
+.control-btn {
+  background-color: transparent;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid hsl(328, 0%, 63%);
+  color: hsl(165, 1%, 58%);
+}
+
+.control-btn:hover {
+  background-color: hsl(0, 100%, 97%);
+  color: hsl(356, 82%, 43%);
+  border: 2px solid hsl(356, 82%, 43%);
+}
+
+.poster {
+  margin-bottom: 24px;
+}
+
+.poster-flex-container {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  column-gap: 5px;
+}
+
+.poster-flex {
+  flex: 0 0 20%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid hsl(240, 6%, 91%);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.poster-flex:hover {
+  box-shadow: 0 0 10px hsl(328, 0%, 63%);
+  border-radius: 10px;
+}
+
+.poster-flex img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.movies-desc {
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.rating-icon {
+  color: hsl(356, 82%, 43%);
+  margin-right: 4px;
+}
+
+.vote-average {
+  color: hsl(295, 0%, 64%);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.movie-title {
+  color: hsl(262, 1%, 35%);
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.movie-container {
+  display: flex;
+  border: 1px solid hsl(0, 2%, 88%);
+  border-radius: 10px;
+  margin-bottom: 12px;
+  box-shadow: 0px 0px 10px hsl(0, 2%, 88%);
+  height: 290px;
+  overflow: hidden;
+}
+
+.movie-poster {
+  border-radius: 10px;
+  object-fit: contain;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.streaming-poster {
+  margin-bottom: 24px;
+}
+
+.movie-overview {
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 12px;
+  color: hsl(180, 0%, 50%);
+  line-height: 1.75;
+  overflow: hidden;
+  hyphens: auto;
+  letter-spacing: 0;
+}
+
+.movie-rating {
+  color: hsl(295, 0%, 64%);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.movie-rating i {
+  color: hsl(356, 82%, 43%);
+  margin-right: 4px;
+}
+
+.selected {
+  color: red;
+}
+
+.movie-info {
+  padding: 24px;
+  cursor: pointer;
+}
+
+.movietitle {
+  color: hsl(262, 1%, 35%);
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+.movierating {
+  color: hsl(295, 0%, 64%);
+  font-size: 16px;
+  font-weight: 600;
+  margin: 12px;
+}
+
+.movierating i {
+  color: hsl(356, 82%, 43%);
+  margin-right: 4px;
+}
+
+.coming-soon {
+  margin-bottom: 24px;
+}
+
+.tv-show-container {
+  margin-bottom: 24px;
+}
+
+.popular-persons {
+  margin-bottom: 24px;
+}
+
+.person-popularity {
+  color: hsl(295, 0%, 64%);
+  font-size: 16px;
+  font-weight: 600;
+  margin: 12px;
+}
+
+.person-name {
+  color: hsl(262, 1%, 35%);
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+.media {
+  padding: 12px;
+  color: hsl(356, 82%, 43%);
+  cursor: pointer;
+}
+
+footer {
+  margin-bottom: 24px;
+}
+
+.ratings-footer {
+  padding: 12px;
+  color: hsl(262, 1%, 35%);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ratings-info {
+  margin-bottom: 12px;
+}
+
+.ratings-footer:hover {
+  text-decoration: underline;
+}
+
+.footer-icon {
+  margin-left: 4px;
+}
+
+.copy-right {
+  color: hsl(231, 15%, 69%);
+  font-size: 14px;
+  font-weight: 600;
+}
